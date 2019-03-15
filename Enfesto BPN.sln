@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enfesto BPN", "Enfesto BPN Library\Enfesto BPN.csproj", "{A7C1D8F8-0306-4081-8973-9D04B45C7D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enfesto BPN Test App", "Enfesto BPN Test App\Enfesto BPN Test App.csproj", "{73BAFD90-12D0-46B7-B097-041DD1A18F43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C1D8F8-0306-4081-8973-9D04B45C7D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C1D8F8-0306-4081-8973-9D04B45C7D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C1D8F8-0306-4081-8973-9D04B45C7D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C1D8F8-0306-4081-8973-9D04B45C7D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BAFD90-12D0-46B7-B097-041DD1A18F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BAFD90-12D0-46B7-B097-041DD1A18F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BAFD90-12D0-46B7-B097-041DD1A18F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BAFD90-12D0-46B7-B097-041DD1A18F43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5198238-FAAA-4F48-8162-4D2A1E2C20AA}
+	EndGlobalSection
+EndGlobal
