@@ -92,7 +92,7 @@ namespace BPN
                 string selfIp = "";
 
                 for (int i = 0; i < headerSize; ++i)
-                    header += '\0';
+                    header += ' ';
 
                 try
                 {
@@ -235,10 +235,10 @@ namespace BPN
             data = data.Substring (0, headerSize);
 
             return new List<string> {
-                data.Substring (checksumPos, checksumSize).TrimEnd ('\0'),
-                data.Substring (IPAddressPos, IPAddressSize).TrimEnd ('\0'),
-                data.Substring (senderNamePos, senderNameSize).TrimEnd ('\0'),
-                data.Substring (flagPos, flagSize).TrimEnd ('\0')
+                data.Substring (checksumPos, checksumSize).TrimEnd (),
+                data.Substring (IPAddressPos, IPAddressSize).TrimEnd (),
+                data.Substring (senderNamePos, senderNameSize).TrimEnd (),
+                data.Substring (flagPos, flagSize).TrimEnd ()
             };
         }
     }

@@ -31,7 +31,7 @@ namespace Enfesto_BPN_Test_App
                     string ip = Console.ReadLine ();
 
                     Console.WriteLine ("Enter data to send: ");
-
+                    
                     client.Push (ip, Console.ReadLine ());
 
                     //tunnel.Push (ip, Console.ReadLine ());
