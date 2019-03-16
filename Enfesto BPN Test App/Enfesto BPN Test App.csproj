@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EnfestoBPN">
-      <HintPath>..\Enfesto BPN Library\bin\Debug\EnfestoBPN.dll</HintPath>
+    <Reference Include="EnfestoBPN, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Enfesto BPN Library\bin\Release\EnfestoBPN.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
