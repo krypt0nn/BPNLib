@@ -108,7 +108,7 @@ Tunnel.Send (IP, Message);
 | | string **name**, int **port**, params string[] **ips**
 **Send** | int **poolId**, string **data** | **bool** - статус отправки данных | Отправка данных участнику бассейна с индексом **poolId**
 **Push** | int **poolId**, string **data** | | Бесконечные попытки отправить данные участнику бассейна с индексом **poolId**
-**Broadcast** | string **data**, bool **push** = **false** | | Отправка данных всем участникам бассейна
+**Broadcast** | string **data**, *[bool **push** = **false**]* | | Отправка данных всем участникам бассейна
 
 Пример использования *(спам всем участникам бассейна пока они точно не получат сообщение)*:
 
